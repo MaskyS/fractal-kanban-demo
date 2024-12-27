@@ -1,8 +1,18 @@
-# React + Vite
+# Fractal Kanban Board Demo
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React-based kanban prototype for infinite nesting of boards, focusing on hierarchical task visualization and space-efficient interactions. NOT actually functional (can't create/delete/edit tasks, drag tasks, persist data, etc). I just wanted to see what it would feel like, if getting the CSS right was even possible, and hope someone actually implements it. See thread for demo + thoughts:
 
-Currently, two official plugins are available:
+https://x.com/maskys_/status/1872360752121839633
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Expandable/collapsible card previews
+- Horizontal/vertical layout switching
+- Hover-based board previews
+- Depth-based visual hierarchy
+- Smooth animations and transitions
+
+## Installation
+
+```bash
+npm install
+npm run dev
+```
